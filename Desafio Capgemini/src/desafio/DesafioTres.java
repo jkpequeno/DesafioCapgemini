@@ -2,7 +2,7 @@ package desafio;
 
 import java.util.Scanner;
 
-public class Tres {
+public class DesafioTres {
 
 	public static String geraNovaString(String[] textoSplit) {
 		String textoSemEspaco = "";
