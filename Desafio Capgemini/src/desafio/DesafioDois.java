@@ -2,7 +2,7 @@ package desafio;
 
 import java.util.Scanner;
 
-public class Dois {
+public class DesafioDois {
 	
 	public static int calculaPares(int [] mat, int dif, int total) {
 		for (int elemento = 0; elemento < mat.length; elemento++) {
@@ -21,12 +21,12 @@ public class Dois {
 		int[] n = { 1, 5, 3, 4, 2, 7, 6, 9, 8};
 		int totalDePares = 0;
 		
-		System.out.println("Por favor, insira a diferença entre os números para que sejam gerados os pares: ");
+		System.out.println("Por favor, insira a diferenÃ§a entre os nÃºmeros para que sejam gerados os pares: ");
 		
 		Scanner entrada = new Scanner(System.in);
 		int x = entrada.nextInt();		
 		
-		System.out.println("O total de pares com diferença de " + x + " é: " + calculaPares(n, x, totalDePares));
+		System.out.println("O total de pares com diferenÃ§a de " + x + " Ã©: " + calculaPares(n, x, totalDePares));
 		
 		entrada.close();
 	}
